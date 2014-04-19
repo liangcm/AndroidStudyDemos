@@ -42,36 +42,36 @@
 
     <string name="quick_contacts_demo">App/Activity/QuickContactsDemo</string>
 
-    <string name="activity_wallpaper">App/Activity/Wallpaper</string>
-    <string name="activity_setwallpaper">App/Activity/SetWallpaper</string>
+    <string name="activity_wallpaper">App/Activity/Wallpaper [C]</string>
+    <string name="activity_setwallpaper">App/Activity/SetWallpaper [C]</string>
     <string name="set_wallpaper">Set Wallpaper</string>
     <string name="randomize">Randomize</string>
 
-    <string name="activity_screen_orientation">App/Activity/Screen Orientation</string>
+    <string name="activity_screen_orientation">App/Activity/Screen Orientation [C]</string>
     <string name="screen_orientation_summary">Demonstrates the available screen
         orientation modes.  Often you want to set the desired mode in your manifest
         instead of programmatically.</string>
     <string name="screen_orientation">Screen Orientation</string>
 
-    <string name="activity_translucent">App/Activity/Translucent</string>
+    <string name="activity_translucent">App/Activity/Translucent [C]</string>
     <string name="translucent_background">Example of how you can make an
             activity have a translucent background, compositing over
             whatever is behind it.</string>
 
-    <string name="activity_translucent_blur">App/Activity/Translucent Blur</string>
+    <string name="activity_translucent_blur">App/Activity/Translucent Blur [C]</string>
 
     <string name="activity_animation">App/Activity/Animation</string>
     <string name="activity_animation_msg">Press a button to launch an activity with a custom animation.</string>
     <string name="activity_animation_fade">Fade in</string>
     <string name="activity_animation_zoom">Zoom in</string>
 
-    <string name="activity_save_restore">App/Activity/Save &amp; Restore State</string>
+    <string name="activity_save_restore">App/Activity/Save &amp; Restore State [BAD]</string>
     <string name="save_restore_msg">Demonstration of saving and restoring activity state in onSaveInstanceState() and onCreate().</string>
     <string name="saves_state">This text field saves its state:</string>
     <string name="no_saves_state">This text field does not save its state:</string>
     <string name="initial_text">Initial text.</string>
 
-    <string name="soft_input_modes">App/Activity/Soft Input Modes</string>
+    <string name="soft_input_modes">App/Activity/Soft Input Modes [C]</string>
     <string name="soft_input_modes_summary">Shows how different soft input modes impact
         application resizing due to an input method.</string>
     <string name="soft_input_modes_label">Resize mode: </string>
