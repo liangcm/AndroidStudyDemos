@@ -55,6 +55,7 @@ public class DialogActivity extends Activity {
         setContentView(R.layout.dialog_activity);
         getWindow().setTitle("This is just a test");
 
+        // 调用这个功能，必须先调用requestWindowFeature(Window.FEATURE_LEFT_ICON);
         getWindow().setFeatureDrawableResource(Window.FEATURE_LEFT_ICON,
                 android.R.drawable.ic_dialog_alert);
 

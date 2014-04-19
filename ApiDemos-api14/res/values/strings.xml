@@ -25,22 +25,22 @@
     <string name="tabs_1_tab_2">tab2</string>
     <string name="tabs_1_tab_3">tab3</string>
 
-    <string name="activity_hello_world">App/Activity/<b>Hello <i>World</i></b></string>
+    <string name="activity_hello_world">App/Activity/<b>Hello <i>World</i></b> [C]</string>
     <string name="hello_world"><b>Hello, <i>World!</i></b></string>
 
-    <string name="activity_dialog">App/Activity/Dialog</string>
+    <string name="activity_dialog">App/Activity/Dialog [C]</string>
     <string name="dialog_activity_text">Example of how you can use the
             Theme.Dialog theme to make an activity that looks like a
             dialog.  It also has lots of text to show how text wrapping (and
             corresponding window size adjustment) can happen in a dialog.</string>
     <string name="dialog_activity_add">Add content</string>
     <string name="dialog_activity_remove">Remove content</string>
-    <string name="activity_custom_dialog">App/Activity/Custom Dialog</string>
+    <string name="activity_custom_dialog">App/Activity/Custom Dialog [C]</string>
     <string name="custom_dialog_activity_text">Example of how you can use a
             custom Theme.Dialog theme to make an activity that looks like a
             customized dialog, here with an ugly frame.</string>
 
-    <string name="quick_contacts_demo">App/Activity/QuickContactsDemo</string>
+    <string name="quick_contacts_demo">App/Activity/QuickContactsDemo [!]</string>
 
     <string name="activity_wallpaper">App/Activity/Wallpaper [C]</string>
     <string name="activity_setwallpaper">App/Activity/SetWallpaper [C]</string>
@@ -60,7 +60,7 @@
 
     <string name="activity_translucent_blur">App/Activity/Translucent Blur [C]</string>
 
-    <string name="activity_animation">App/Activity/Animation</string>
+    <string name="activity_animation">App/Activity/Animation [C]</string>
     <string name="activity_animation_msg">Press a button to launch an activity with a custom animation.</string>
     <string name="activity_animation_fade">Fade in</string>
     <string name="activity_animation_zoom">Zoom in</string>
@@ -80,25 +80,25 @@
     <string name="soft_input_modes_initial_text">Text editor.\n\nTap to show the IME,
         which will cause this window to resize as requested.</string>
 
-    <string name="activity_persistent">App/Activity/Persistent State</string>
+    <string name="activity_persistent">App/Activity/Persistent State [C]</string>
     <string name="persistent_msg">Demonstration of persistent activity state with getPreferences(0).edit() and getPreferences(0).</string>
 
-    <string name="activity_recreate">App/Activity/Recreate</string>
+    <string name="activity_recreate">App/Activity/Recreate [C]</string>
     <string name="activity_recreate_msg">Demonstration recreating an activity, to have
         it reconstructed with significant new changes.  In this case the theme is changed.</string>
     <string name="recreate">Recreate</string>
 
-    <string name="activity_receive_result">App/Activity/Receive Result</string>
+    <string name="activity_receive_result">App/Activity/Receive Result [C]</string>
     <string name="pick_result">Pick a result to send, or BACK to cancel.</string>
     <string name="corky">Corky</string>
     <string name="violet">Violet</string>
 
-    <string name="activity_forwarding">App/Activity/Forwarding</string>
+    <string name="activity_forwarding">App/Activity/Forwarding [C]</string>
     <string name="forwarding">Press the button to go forward to the next activity.  This activity will stop, so you will no longer see it when going back.</string>
     <string name="go">Go</string>
     <string name="forward_target">Press back button and notice we don\'t see the previous activity.</string>
 
-    <string name="activity_redirect">App/Activity/Redirection</string>
+    <string name="activity_redirect">App/Activity/Redirection [C]</string>
     <string name="redirect_enter">Press the button to start the example.  The next activity will conditionally redirect to another activity to collect data from the user.</string>
     <string name="redirect_main">You now see the main activity running normally because the user text has been set to:</string>
     <string name="clear_text">Clear and Exit</string>
@@ -286,13 +286,13 @@
     <string name="notifying_service_controller">This service will update a status bar notification
                   every 5 seconds for a minute</string>
 
-    <string name="activity_custom_title">App/Activity/Custom Title</string>
+    <string name="activity_custom_title">App/Activity/Custom Title [C]</string>
     <string name="custom_title_left">Left is best</string>
     <string name="custom_title_right">Right is always right</string>
     <string name="custom_title_left_button">Change Left</string>
     <string name="custom_title_right_button">Change Right</string>
 
-    <string name="activity_reorder">App/Activity/Reorder Activities</string>
+    <string name="activity_reorder">App/Activity/Reorder Activities [C]</string>
     <string name="reorder_on_launch">This is the first of a sequence of four Activities.  A button on the fourth will use the Intent.FLAG_ACTIVITY_REORDER_TO_FRONT flag to bring the second of the activities to the front of the history stack. After that, proceeding back through the history should begin with the newly-frontmost second reorder activity, then the fourth, the third, and finally the first.</string>
     <string name="reorder_launch_two">Go to the second</string>
     <string name="reorder_two_text">This is the second in a sequence of four Activities.</string>
@@ -369,7 +369,7 @@
     <!--  app/intents examples strings     -->
     <!-- ============================== -->
 
-    <string name="activity_intents">App/Activity/Intents</string>
+    <string name="activity_intents">App/Activity/Intents [C]</string>
     <string name="intents">Example of launching various Intents.</string>
     <string name="get_music">Get Music</string>
 
@@ -377,7 +377,7 @@
     <!--  app/intents activity flags examples strings     -->
     <!-- ============================== -->
 
-    <string name="activity_intent_activity_flags">App/Activity/Intent Activity Flags</string>
+    <string name="activity_intent_activity_flags">App/Activity/Intent Activity Flags [C]</string>
     <string name="intent_activity_flags">Example of the use of various intent activity flags.</string>
     <string name="flag_activity_clear_task">FLAG_ACTIVITY_CLEAR_TASK</string>
     <string name="flag_activity_clear_task_pi">FLAG_ACTIVITY_CLEAR_TASK (PI)</string>

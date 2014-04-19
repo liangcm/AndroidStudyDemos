@@ -599,7 +599,7 @@
 
         <!-- Notifications samples -->
 
-        <activity android:name=".app.NotifyWithText" android:label="App/Notification/NotifyWithText">
+        <activity android:name=".app.NotifyWithText" android:label="App/Notification/NotifyWithText [C]">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
@@ -608,7 +608,7 @@
 
 
         <activity android:name=".app.IncomingMessage"
-                android:label="App/Notification/IncomingMessage"
+                android:label="App/Notification/IncomingMessage [C]"
                 android:taskAffinity="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -636,7 +636,7 @@
         </activity>
 
         <activity android:name=".app.StatusBarNotifications"
-                android:label="App/Notification/Status Bar"
+                android:label="App/Notification/Status Bar [C]"
                 android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -646,7 +646,7 @@
 
         <service android:name=".app.NotifyingService" />
 
-        <activity android:name=".app.NotifyingController" android:label="App/Notification/Notifying Service Controller">
+        <activity android:name=".app.NotifyingController" android:label="App/Notification/Notifying Service Controller [C]">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
